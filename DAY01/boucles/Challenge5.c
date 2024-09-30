@@ -5,7 +5,7 @@ int main() {
     printf("entrer la valeur de la base: ");
     scanf("%d",&base);
     printf("entrer la valeur de la exposant: ");
-    scanf("%d",&exposant);
+    scanf("%d",&exposant);E
     
     result = pow(base ,exposant);
 
