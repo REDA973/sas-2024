@@ -1,20 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    int  taille,i ;
-    
-    printf("entrer taille : ");
-    scanf("%d",&taille);
 
-    int t[taille];
-    for(i=0 ;i < taille;i++ )
-    {
-        printf("entrer les element : ");
-        scanf("%d",&t[i]);
-        }
-        for(i=0; i < taille ; i++)
-        {
-            printf("{ %d  }",t[i]);
-            }
+    int tableau[] = {1,2,3,4,5};
+    int taille = sizeof(tableau) / sizeof(tableau[0]);
+    for (int i = 0; i < taille; i++) {
+        printf("%d\n", tableau[i]);
+    }
+
     return 0;
-}
